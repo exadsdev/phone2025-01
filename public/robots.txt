@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin/*
+Disallow: /api/*
+
+# Host
+Host: https://www.mypgshopro.shop
+
+# Sitemaps
+Sitemap: https://www.mypgshopro.shop/sitemap.xml
+Sitemap: https://www.pgphone-store.com/sitemap.xml

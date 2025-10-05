@@ -1,0 +1,39 @@
+.main-images {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .main-images {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #000; /* เอาออกได้ */
+  }
+
+  .image-wrapper {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 0; /* ตัดช่องว่างแนวตั้งของ inline image */
+  }
+
+  .image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;      /* สูงอัตโนมัติตามอัตราส่วนรูปจริง */
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  /* ไม่มีช่องว่างระหว่างรูป */
+  .image-wrapper + .image-wrapper {
+    margin-top: 0;
+  }
+}
