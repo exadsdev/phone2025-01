@@ -18,6 +18,7 @@ export default function Header() {
           <Link href="#products" className="nav-link text-white">สินค้า</Link>
           <Link href="#features" className="nav-link text-white">จุดเด่น</Link>
           <Link href="#contact" className="nav-link text-white">ติดต่อเรา</Link>
+          <Link href="/admin" className="nav-link text-white">admin</Link>
         </nav>
       </div>
     </header>
